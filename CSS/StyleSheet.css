@@ -1,0 +1,48 @@
+﻿body {
+    background-color:green;
+
+}
+
+nav ul {
+    margin:0;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    background-color: rgba(0, 60, 0, 0.6);
+    margin: 0px 10px;
+    padding: 10px 20px;
+}
+
+    nav ul li a:hover {
+        background-color: rgba(0, 20, 0, 0.5);
+    }
+
+#wrapper {
+    margin:auto;
+    height:800px;
+    width:600px;
+    background-image:url(/images/shield.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+}
+
+input[type="text"], input[type="submit"]
+{
+    background-color:rgba(255,255,255,0.7);
+}
+
+
+.label
+{
+    display:inline-block;
+    width:80px;
+    text-align:right;
+   
+}
